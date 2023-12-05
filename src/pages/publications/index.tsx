@@ -6,7 +6,6 @@ import { useTranslation } from 'next-export-i18n'
 import { ArticleContainer } from '@/components/template/ArticleContainer'
 import { ExternalLink } from '@/components/typography/ExternalLink'
 import { Heading } from '@/components/typography/Heading'
-import { SubHeading } from '@/components/typography/SubHeading'
 import { textStyle } from '@/components/typography/Text'
 import { Title } from '@/components/typography/Title'
 import {
