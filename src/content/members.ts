@@ -5,7 +5,7 @@ export const memberList = [
   },
   {
     head: '大学院修士課程',
-    data: ['藤田 優之 / Yuno Fujita']
+    data: ['藤田 優之 / Yuno Fujita', 'Iurco Tiberiu Iulian']
   },
   {
     head: 'B4',

@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import { css } from '@linaria/core'
+import { useTranslation } from 'next-export-i18n'
 
 import { ArticleContainer } from '@/components/template/ArticleContainer'
 import { ExternalLink } from '@/components/typography/ExternalLink'
@@ -16,6 +17,8 @@ import {
 import { FontWeight } from '@/styles/StyleToken'
 
 export default function Publications() {
+  const { t } = useTranslation()
+
   return (
     <>
       <Head>
@@ -23,10 +26,10 @@ export default function Publications() {
       </Head>
 
       <ArticleContainer>
-        <Title>Publications</Title>
+        <Title>{t('publications.structure.heading')}</Title>
         <section>
-          <Heading>Selected Articles</Heading>
-          <SubHeading>主な研究業績</SubHeading>
+          <Heading>{t('publications.structure.articles')}</Heading>
+          {/* <SubHeading>{t('publications.section.selectedArticles.subheading')}</SubHeading> */}
           <ul className={listStyle}>
             {articlesList.map((item, index) => (
               <li key={`publication${index}`}>
@@ -43,8 +46,7 @@ export default function Publications() {
           </ul>
         </section>
         <section>
-          <Heading>Collaborations</Heading>
-          <SubHeading>共同研究</SubHeading>
+          <Heading>{t('publications.structure.collabs')}</Heading>
           <ul className={listStyle}>
             {collaborateList.map((item, index) => (
               <li key={`collaborate${index}`} className={clListItem}>
@@ -61,8 +63,7 @@ export default function Publications() {
           </ul>
         </section>
         <section>
-          <Heading>Media Coverage</Heading>
-          <SubHeading>メディア掲載情報</SubHeading>
+          <Heading>{t('publications.structure.media')}</Heading>
           <ul className={listStyle}>
             {mediaList.map((item, index) => (
               <li key={`media${index}`} className={newsItem}>

@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 import { css } from '@linaria/core'
 import { useTranslation } from 'next-export-i18n'
@@ -28,12 +29,12 @@ export default function Research() {
 
       <ArticleContainer>
         <section>
-          <Title>Laboratory Information</Title>
+          <Title>{t('laboratory.structure.labInfo')}</Title>
           <Text>{t('laboratory.outline')}</Text>
         </section>
 
         <section>
-          <Heading>Research</Heading>
+          <Heading>{t('laboratory.structure.research')}</Heading>
           <SubHeading>{t('laboratory.section.research.subheading')}</SubHeading>
           {t('laboratory.section.research.content').map(
             (item: string, idx: number) => (
@@ -43,7 +44,7 @@ export default function Research() {
         </section>
 
         <section>
-          <Heading>Student research</Heading>
+          <Heading>{t('laboratory.structure.studentResearch')}</Heading>
           <SubHeading>
             {t('laboratory.section.studentResearch.subheading')}
           </SubHeading>
@@ -59,16 +60,27 @@ export default function Research() {
         </section>
 
         <section>
-          <Heading>Our recent activities</Heading>
-          <SubHeading>
-            {t('laboratory.section.recentActivities.subheading')}
-          </SubHeading>
-          <Text>{t('laboratory.section.recentActivities.content')}</Text>
+          <Heading>{t('laboratory.structure.recentActivities')}</Heading>
+          <SubHeading>{t('laboratory.section.recentActivities.jetsonNano.heading')}</SubHeading>
+          <Text>{t('laboratory.section.recentActivities.jetsonNano.outline')}</Text>
+          <ul className={list}>
+            {t('laboratory.section.recentActivities.jetsonNano.links').map(
+              (item: string, idx: number) => (
+                <li key={idx} className={listItem}>
+                  <Link href={item}>
+                    {item}
+                </Link>
+                </li>
+              )
+            )}
+          </ul>
+          
+          <Text>{t('laboratory.section.recentActivities.jetsonNano.collision')}</Text>
           <MovieContainer>
             <iframe
               width='100%'
               height='100%'
-              src='https://www.youtube.com/embed/Yxtqz4ZRMU0'
+              src='https://www.youtube.com/embed/uNR7q6uF6v0?si=empcYcDzeWjhXuQG'
               title='YouTube video player 【Jetbot】コース走行'
               allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
               allowFullScreen
@@ -77,7 +89,7 @@ export default function Research() {
         </section>
 
         <section>
-          <Heading>Equipments</Heading>
+          <Heading>{t('laboratory.structure.equipments')}</Heading>
           <ul className={equipmentList}>
             {t('laboratory.section.equipments').map(
               (item: EquipmentType, idx: number) => (

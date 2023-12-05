@@ -1,10 +1,21 @@
 {
   "i18n": {
+    "navbar": {
+      "top": "Top",
+      "labInfo": "Lab Info",
+      "members": "Members",
+      "publications": "Publications",
+      "forStudents": "For Students"
+    },
     "index": {
+      "structure": {
+        "outline": "Outline",
+        "news": "News"
+      },
       "title": "辻村研究室｜名古屋市立大学芸術工学部",
       "outline": [
-        "This is the home page of Sei-ichi Tsujimura Laboratory, Nagoya City University.",
-        "Our laboratory has developed the world's first device that can stimulate only melanopsin cells by adjusting the color of light, and is conducting experiments on the contribution of melanopsin cells to vision and non-visual functions in brain."
+        "This is the home page of Tsujimura Sei-ichi Laboratory, Nagoya City University, Graduate School of Design and Architecture.",
+        "Our laboratory has developed the world's first device that can stimulate only melanopsin cells by adjusting the color of lights, and is conducting experiments on the contribution of melanopsin cells to contrast sensitivity."
       ],
       "news": [
         {
@@ -18,21 +29,34 @@
         }
       ]
     },
+    "more": "View More",
     "laboratory": {
+      "structure": {
+        "labInfo": "Laboratory Information",
+        "research": "Research",
+        "studentResearch": "Student Research",
+        "recentActivities": "Recent Activities",
+        "equipments": "Equipments"
+      },
       "title": "Lab Info｜辻村研究室｜名古屋市立大学芸術工学部",
-      "outline": "Prof. Tsujimura's interests are in the connection between sensory processes and higher brain functions, particularly through color and brightness processing. He also focuses on the function of ipRGCs, which play an important role in the brain. The aim of the research is to understand how sensory information is delivered, integrated and represented in the brain. Prof. Tsujimura and his collaborators were the first to show that ipRGCs contribute to brightness perception (T. M. Brown, S. Tsujimura et al., Melanopsin-based brightness discrimination in mice and humans. Curr Biol 22, 1134-1141 2012). Since then, many researchers have demonstrated the contribution of ipRGCs to brightness perception. It is considered very important for photometry and colorimetry to show the contribution of ipRGCs to brightness perception.",
+      "outline": "We regard life as an information processing system of various stimuli and study the ways in which visual information such as color, shape, and brightness is processed from a neurophysiological and experimental psychological approach.",
       "section": {
         "research": {
           "subheading": "Melanopsin ganglion cells",
           "content": [
-            "We are focusing on the relationship between sensory information processing, such as color and brightness, and higher brain functions. In addition, we are interested in understanding the function of intrinsicallyphotosensitive retinal ganglion cells (ipRGCs), which play an important role in the encoding of external light signals in the brain. Our goal is to answer the question of how processing in the retina is processed and integrated in vivo and how it is expressed in the brain. We employ psychophysical and neurophysiological methods in our research. The retina of our eye contains two types of photoreceptors (cone cells and rod cells). It has long been thought that these two photoreceptors are the only ones that allow us to see and discriminate between objects.",
-            "However, a third photoreceptor, the melanopsin cell, has been discovered. Melanopsin cells possess a photoreceptor protein called melanopsin. The discovery of melanopsin cells has led to a fundamental rethinking of non-image-forming pathways and image-forming oathways, such as circadian light control and pupillary light reflex. Melanopsin cells are thought to play an important role in encoding ambient light in the brain. Signals from melanopsin cells stimulated by ambient light, along with signals from classical photoreceptor cells such as rods and cones, contribute to the function of non-imaging and imaging pathways in the brain.",
-            "Our research group was the first in the world to discover that melanopsin cells contribute to brightness perception. On the other hand, the regulation of circadian rhythm, pupillary counter-response, and brightness perception are only a small part of the functions of melanopsin cells, and it is thought that there may be still other functions of melanopsin cells. For example, they may also affect memory, attention, mood, and migraine headaches."
+            "We are focusing on the relationship between sensory information processing, such as color and brightness, and higher brain functions. In addition, we are focusing on investigating the function of melanopsin ganglion cells, which play an important role in encoding external light signals in the brain. Our goal is to answer the question of how processing in the retina is being conducted, integrated and how it is represented in the brain, by using psychophysical and neurophysiological methods. The retina of our eye contains two types of photoreceptors (cone and rod cells).",
+            "It has long been believed that these two photoreceptors are the only ones that allow us to perceive and discriminate between objects. However, a third photoreceptor, the melanopsin cell, has been discovered around 2000. Melanopsin cells have a photoreceptor protein called melanopsin. The discovery of melanopsin cells has led to a fundamental rethinking of non-image and image forming pathways, such as circadian rythm and pupillary light reflex.",
+            "Melanopsin cells are thought to play an important role in encoding ambient light in the brain. Signals from melanopsin cells stimulated by ambient light, along with signals from classical photoreceptor cells such as rods and cones, contribute to brain function in non-image and image forming pathways.",
+            "Our research group was the first in the world to discover that melanopsin cells contribute to brightness perception. On the other hand, the regulation of circadian rhythm, pupillary light reflex, contrast and brightness perception are only a small part of the functions of melanopsin cells, and it is thought that there may be still other functions as well. For example, they may also affect memory, attention, mood, and migraine headaches."
+            
           ]
         },
         "studentResearch": {
           "subheading": "Experimental Psychology and Neuroscience",
           "content": [
+            "Development/ improvement of software to estimate the light distribution in a 3D environment using Mitsuba 3",
+            "Development/ improvement of a multi-primary system. The multi-primary system previously developed consisted of the four LEDs driven by PWM. Probably a programming on embedded system is going to be preferable",
+            "Development/ improvement of a C# software on Windows environment to send signals to the multi-primary systems",
             "Contribution of melanopsin ganglion cells to the pupillary radial pathway.",
             "Functional association of color and luminance information with melanopsin ganglion cells",
             "Elucidating the Effects of Light Environment on Circadian Rhythms",
@@ -42,9 +66,15 @@
         },
         "recentActivities": {
           "subheading": "Laboratory Training",
-          "content": [
-            "We used the NVIDA's Jetson Nano to study deep learning. The following video is from a test run using the collision avoidance driving demo to learn fall avoidance and collision avoidance."
-          ]
+          "jetsonNano": {
+            "heading": "Jetson Nano",
+            "outline": "Students learned about Deep Learning by using a SparkFun JetBot AI Robot Kit equipped with NVIDIA's Jetson Nano.",
+            "links": [
+              "https://github.com/dusty-nv/jetson-inference",
+              "https://github.com/NVIDIA-AI-IOT/jetbot"
+            ],
+            "collision": "The following video shows a test run using the collision avoidance driving demo to learn fall and collision avoidance."
+          }
         },
         "equipments": [
           {
@@ -53,54 +83,59 @@
             "image": "/equipments/image1.jpg"
           },
           {
-            "name": "Spectroscopic irradiance meter",
-            "detail": "The CL-500A spectroradiometer is a spectroradiometer capable of measuring color rendering index, correlated color temperature, chromaticity, illuminance (JIS general type AA class), dark irradiance, tristimulus value, principal wavelength stimulus purity, peak wavelength, and spectral irradiance value (360 nm to 780 nm 1 nm pitch: external output only).",
+            "name": "Spectroscopic Irradiance Meter",
+            "detail": "The CL-500A spectroradiometer is capable of measuring color rendering index, correlated color temperature, chromaticity, illuminance (JIS general type AA class), dark irradiance, tristimulus value, principal wavelength stimulus purity, peak wavelength, and spectral irradiance value (360 nm to 780 nm 1 nm pitch: external output only).",
             "image": "/equipments/image2.jpg"
           },
           {
-            "name": "2D color luminance meter",
-            "detail": "The RTC-21 (2-D Color Luminance Meter) is a camera that uses an XYZ color system with sensitivity equivalent to that of the human eye, and can acquire color information over a wide color gamut that cannot be captured by ordinary RGB three-primary color cameras. The acquired wide color gamut and high color fidelity XYZ images can be checked on a PC, and XYZ image files can be saved and analyzed on a PC.",
+            "name": "2D Luminance Colorimeter",
+            "detail": "The RTC-21 2D Luminance Colorimeter is a camera that uses an XYZ color system with sensitivity equivalent to that of the human eye, and can acquire color information over a wide color range that cannot be captured by ordinary RGB three-primary color cameras. The acquired wide color gamut and high color XYZ images can be checked, saved and analyzed on a PC.",
             "image": "/equipments/image3.jpg"
           },
           {
-            "name": "LED Cube",
-            "detail": "THOUSLITE LEDCube is a 'lighting environment simulation light source' that uses a proprietary optimization algorithm and 10 special LEDs to easily and accurately simulate any lighting environment with different spectral distribution (SPD). We modified this eqipment and used it for the experiments.",
+            "name": "LEDCube",
+            "detail": "THOUSLITE LEDCube is a 'lighting environment simulation light source' that uses a proprietary optimization algorithm and 10 special LEDs to easily and accurately simulate any lighting environment with different spectral distribution (SPD).",
             "image": "/equipments/image4.jpg"
           }
         ]
       }
     },
     "members": {
+      "structure": {
+        "heading": "Members",
+        "professor": "Professor",
+        "students": "Staff and Students"
+      },
       "list": [
         {
-          "head": "日本学術振興会特別研究員",
-          "data": ["齋藤 真里菜 / Marina Saito"]
+          "head": "JSPS Special Researcher",
+          "data": ["Marina Saito"]
         },
         {
-          "head": "大学院修士課程",
-          "data": ["藤田 優之 / Yuno Fujita"]
+          "head": "Master Student",
+          "data": ["Yuno Fujita", "Iurco Tiberiu Iulian"]
         },
         {
-          "head": "B4",
+          "head": "4th Year",
           "data": [
-            "岩崎 百花 / Momoka Iwasaki",
-            "嬉野 友妃菜 / Yukina Ureshino",
-            "大竹 未来 / Miku Otake",
-            "滝川 瑞季 / Mizuki Takikawa",
-            "中嶋 莉那 / Rina Nakajima",
-            "三品 佳穂 / Kaho Mishina",
-            "森 璃弥武 / Lyam Mori"
+            "Momoka Iwasaki",
+            "Yukina Ureshino",
+            "Miku Otake",
+            "Mizuki Takikawa",
+            "Rina Nakajima",
+            "Kaho Mishina",
+            "Lyam Mori"
           ]
         },
         {
-          "head": "B3",
+          "head": "3rd Year",
           "data": [""]
         },
         {
-          "head": "同窓生",
+          "head": "Alumni",
           "data": [
-            "伊藤 登萌 / Tomoe Ito (2023)",
-            "高須 葵 / Aoi Takasu (2023)",
+            "Tomoe Ito (2023)",
+            "Aoi Takasu (2023)",
             "Bullot Loefc (2021)",
             "Vincent Conus (2020)",
             "Yan Michellod (2019)"
@@ -109,9 +144,15 @@
       ]
     },
     "publications": {
+      "structure": {
+        "heading": "Publications",
+        "articles": "Selected Articles",
+        "collabs": "Collaborations",
+        "media": "Media Coverage"
+      },
       "section": {
         "selectedArticles": {
-          "subheading": "主な研究業績",
+          "subheading": "Major Research Achievements",
           "content": [
             {
               "title": "Melanopsin-Based Brightness Discrimination in Mice and Humans(2012)",
@@ -164,7 +205,7 @@
           ]
         },
         "collaborations": {
-          "subheading": "共同研究",
+          "subheading": "Collaborative Research",
           "content": [
             {
               "heading": "Melanopsin expressing retinal ganglion cells",
@@ -185,7 +226,7 @@
               ]
             },
             {
-              "heading": "Circadian Rhy thms",
+              "heading": "Circadian Rhythms",
               "content": [
                 "Takeshi Morita,Department of Living Environmental Science,Fukuoka Women's University",
                 "Shigekazu Higuchi,Faculty of Design,Kyushu University,Japan",
@@ -245,7 +286,8 @@
       }
     },
     "students": {
-      "content": "現在お知らせはありません。"
+      "heading": "For Students",
+      "content": "Nothing to be shown at the moment."
     },
     "nav": {
       "schoolName": "Nagoya City University School of Design and Architecture",

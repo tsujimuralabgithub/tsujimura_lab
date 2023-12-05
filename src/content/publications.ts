@@ -79,7 +79,7 @@ export const collaborateList = [
     ]
   },
   {
-    heading: 'Circadian Rhy thms',
+    heading: 'Circadian Rhythms',
     content: [
       "Takeshi Morita,Department of Living Environmental Science,Fukuoka Women's University",
       'Shigekazu Higuchi,Faculty of Design,Kyushu University,Japan',

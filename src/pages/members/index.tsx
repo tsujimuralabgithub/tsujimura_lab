@@ -1,6 +1,7 @@
 import Head from 'next/head'
 
 import { css } from '@linaria/core'
+import { useTranslation } from 'next-export-i18n'
 
 import { ArticleContainer } from '@/components/template/ArticleContainer'
 import { ExternalLink } from '@/components/typography/ExternalLink'
@@ -11,6 +12,8 @@ import { memberList } from '@/content/members'
 import { FontWeight } from '@/styles/StyleToken'
 
 export default function Members() {
+  const { t } = useTranslation()
+
   return (
     <>
       <Head>
@@ -18,29 +21,30 @@ export default function Members() {
       </Head>
 
       <ArticleContainer>
-        <Title>Members</Title>
+        <Title>{t('members.structure.heading')}</Title>
         <section>
-          <Heading>Professor</Heading>
-          <ExternalLink link="'https://nrd.nagoya-cu.ac.jp/profile/ja.0597f54a4f5fa058.html'">
+          <Heading>{t('members.structure.professor')}</Heading>
+          <ExternalLink link="https://nrd.nagoya-cu.ac.jp/profile/en.0597f54a4f5fa058.html">
             辻村 誠一 / Sei-ichi Tsujimura
           </ExternalLink>
         </section>
         <section>
-          <Heading>Staffs and students</Heading>
+          <Heading>{t('members.structure.students')}</Heading>
           <div>
-            {memberList.map((item, index) => (
-              <div key={index} className={memberRow}>
+          {t('members.list').map((item: any, idx: number) => (
+              <div key={idx} className={memberRow}>
                 <h3 className={memberRole}>{item.head}</h3>
                 <ul className={memberListWrap}>
-                  {item.data.map((data, index) => (
+                  {item.data.map((data: any, index: number) => (
                     <li key={index} className={nameWrap}>
                       {data}
                     </li>
                   ))}
                 </ul>
               </div>
-            ))}
+          ))}
           </div>
+
         </section>
       </ArticleContainer>
     </>

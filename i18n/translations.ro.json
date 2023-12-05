@@ -1,0 +1,300 @@
+{
+    "i18n": {
+        "navbar": {
+          "top": "Acasa",
+          "labInfo": "Informatii",
+          "members": "Membri",
+          "publications": "Publicatii",
+          "forStudents": "Pentru Studenti"
+        },
+      "index": {
+        "structure": {
+          "outline": "Scurta Descriere",
+          "news": "Stiri"
+        },
+        "title": "辻村研究室｜名古屋市立大学芸術工学部",
+        "outline": [
+          "Aceasta este pagina laboratorului domnului profesor Tsujimura Sei-ichi, de la Universitatea Nagoya City, Departamentul de Design si Arhitectura.",
+          "Laboratorul nostru a dezvoltat primul dispozitiv din lume care poate stimula doar celulele de melanopsina prin ajustarea culorii luminilor si efectuarea experimentelor privind contributia celulelor de melanopsina la sensibilitatea contrastului."
+        ],
+        "news": [
+          {
+            "date": "2023/06/22",
+            "text": "A fost descoperit faptul ca lumina cu iluminare speciala imbunatateste sensibilitatea oamenilor la contrast.(PDF: 0.99MB)",
+            "link": "https://www.nagoya-cu.ac.jp/media/20230621press.pdf"
+          },
+          {
+            "date": "2023/06/22",
+            "text": "Ne-am reinnoit pagina web. Va rugam sa o folositi pentru informatii educationale si teme."
+          }
+        ]
+      },
+      "more": "Mai Multe",
+      "laboratory": {
+        "structure": {
+          "labInfo": "Informatiile Laboratorului",
+          "research": "Cercetare",
+          "studentResearch": "Cercetarea Studentilor",
+          "recentActivities": "Activitati Recente",
+          "equipments": "Echipamente"
+        },
+        "title": "Lab Info｜辻村研究室｜名古屋市立大学芸術工学部",
+        "outline": "Consideram viata ca un sistem de procesare a informatiilor din diversi stimuli si studiem modul in care informatiile vizuale, cum ar fi culoarea, forma si luminozitatea, sunt procesate dintr-o perspectiva neurofiziologica si psihologica experimentala.",
+        "section": {
+          "research": {
+            "subheading": "Celulele Ganglionare de Melanopsina",
+            "content": [
+              "Ne concentram pe relatia dintre procesarea informatiei senzoriale, cum ar fi culoarea si luminozitatea, si functiile superioare ale creierului. In plus, acordam si o atentie deosebita investigarii functiei celulelor ganglionare de melanopsina, care joaca un rol important in codificarea semnalelor luminoase externe din creier. Scopul nostru este de a raspunde la misterul procesarii din interiorul retinei, cum se integreaza si cum este reprezentata in creier, folosind metode psihofizice si neurofiziologice. Retina ochiului nostru contine doua tipuri de fotoreceptori (celule con si celule baston).",
+              "S-a crezut mult timp ca acesti doi fotoreceptori sunt singurii care ne permit sa percepem si sa facem distinctie intre obiecte. Cu toate acestea, in jurul anului 2000, a fost descoperit un al treilea fotoreceptor, celula de melanopsina. Celulele de melanopsina au o proteina fotoreceptoare numita melanopsina. Descoperirea acestor celule a condus la o reevaluare fundamentala a cailor de formare a imaginilor si a celor care nu formeaza imagini, cum ar fi ritmul circadian si reflexul pupilar la lumina.",
+              "Celulele de melanopsina sunt considerate a juca un rol important in codificarea luminii ambientale din creier. Semnalele de la celulele de melanopsina stimulate de lumina ambientala, impreuna cu semnalele de la celulele fotoreceptoare clasice, cum ar fi conurile si bastoanele, contribuie atat la functiile creierului pe partea cailor de formare a imaginilor, cat si pe partea cailor care nu formeaza imagini.",
+              "Grupul nostru de cercetare a fost primul din lume care a descoperit ca celulele de melanopsina contribuie la perceptia luminozitatii. Pe de alta parte, reglarea ritmului circadian, reflexul pupilar la lumina, perceptia contrastului si a luminozitatii sunt doar o mica parte din functiile acestora, si se crede ca pot exista si altele. De exemplu, acestea pot afecta, de asemenea, memoria, atentia, dispozitia si durerile de migrena."              
+            ]
+          },
+          "studentResearch": {
+            "subheading": "Psihologie Experimentala si Neurostiinta",
+            "content": [
+                "Dezvoltarea/ imbunatatirea unui software capabil sa estimeze distributia luminii intr-un mediu 3D folosind Mitsuba 3",
+                "Dezvoltarea/ imbunatatirea unui system multi-primar. Acest sistem a fost dezvoltat ulterior cu ajutorul a 4 LED-uri conduse prin PWM (Pulse-Width Modulation). Probabil ca programarea direct pe sistemul embedded este o idee mai buna",
+                "Dezvoltarea/ imbunatatirea unui program C# pe mediul Windows pentru a trimite semnale catre sistemul multi-primar",
+                "Contributia celulelor de melanopsina la cursul traseului radial al pupilei",
+                "Asocierea culorii si a luminantei cu ajutorul celulelor ganglionare de melanopsina",
+                "Elucidarea efectelor mediului luminos asupra ritmurilor circadiene",
+                "Elucidarea mecanismelor umane de percepere a culorilor",
+                "Elucidarea mecanismului uman de perceptie a luminozitatii"
+            ]
+          },
+          "recentActivities": {
+            "subheading": "Activitatile Laboratorului",
+            "jetsonNano": {
+                "heading": "Jetson Nano",
+                "outline": "Studentii invata despre Depp Learning folosind un kit de robot AI SparkFun JetBot echipat cu Jetson Nano de la NVIDIA.",
+                "links": [
+                  "https://github.com/dusty-nv/jetson-inference",
+                  "https://github.com/NVIDIA-AI-IOT/jetbot"
+                ],
+                "collision": "Urmatorul video prezinta un DEMO al unui test de conducere automata, prin care masina invata cum sa evite caderile si coliziunile cu mediul extern."
+            }
+          },
+          "equipments": [
+            {
+              "name": "Spectroradiometru",
+              "detail": "Masoara cantitatea de energie fizica (valoare absoluta) cu pasi a cate 1 nm fiecare,  in intervalul 380 nm - 780 nm de lumina vizibila cu ochiul uman. De asemenea, se calculeaza cu precizie ridicata luminozitatea, cromaticitatea, temperatura de culoare, lungimea de unda principala, etc. Se foloseste pentru calibrarea diferitelor echipamente experimentale.",
+              "image": "/equipments/image1.jpg"
+            },
+            {
+                "name": "Spectroradiometru",
+                "detail": "Spectroradiometrul CL-500A este capabil de a masura indexul de redare a culorii, temperatura de culoare corelata, cromaticitatea, iluminanta (clasa AA generala JIS), radianta intunecata, puritatea stimulului de lungime de unda principala, lungimea de unda de varf si valoarea spectrului de iradiere (360 nm la 780 nm 1 nm pas: doar iesire externa).",
+              "image": "/equipments/image2.jpg"
+            },
+            {
+              "name": "Colorimetru pentru Luminanta 2D",
+              "detail": "Colorimetrul RTC-21 2D Luminance este o camera care foloseste un sistem de culoare XYZ cu sensibilitate echivalenta cu cea a ochiului uman si poate capta informatii de culoare pe o gama larga de culori care nu pot fi captate de camerele RGB obisnuite cu trei culori primare. Imaginile XYZ cu gama larga de culori pot fi verificate, salvate si analizate pe un PC.",
+              "image": "/equipments/image3.jpg"
+            },
+            {
+              "name": "LEDCube",
+              "detail": "THOUSLITE LEDCube este o sursa de lumina care foloseste un algoritm de optimizare proprietar si 10 LED-uri speciale pentru a simula usor si cu precizie orice mediu de iluminare cu diferite distributii spectrale (SPD).",
+              "image": "/equipments/image4.jpg"
+            }
+          ]
+        }
+      },
+      "members": {
+        "structure": {
+          "heading": "Membrii Laboratorului",
+          "professor": "Profesor",
+          "students": "Studenti"
+        },
+        "list": [
+          {
+            "head": "Cercetator Special al Societatii Japoneze pentru Promovarea Stiintei (JSPS)",
+            "data": ["齋藤 真里菜 / Marina Saito"]
+          },
+          {
+            "head": "Masterat",
+            "data": ["藤田 優之 / Yuno Fujita", "Iurco Tiberiu Iulian"]
+          },
+          {
+            "head": "Facultate An 4",
+            "data": [
+              "岩崎 百花 / Momoka Iwasaki",
+              "嬉野 友妃菜 / Yukina Ureshino",
+              "大竹 未来 / Miku Otake",
+              "滝川 瑞季 / Mizuki Takikawa",
+              "中嶋 莉那 / Rina Nakajima",
+              "三品 佳穂 / Kaho Mishina",
+              "森 璃弥武 / Lyam Mori"
+            ]
+          },
+          {
+            "head": "Facultate An 3",
+            "data": [""]
+          },
+          {
+            "head": "Alumni",
+            "data": [
+              "伊藤 登萌 / Tomoe Ito (2023)",
+              "高須 葵 / Aoi Takasu (2023)",
+              "Bullot Loefc (2021)",
+              "Vincent Conus (2020)",
+              "Yan Michellod (2019)"
+            ]
+          }
+        ]
+      },
+      "publications": {
+        "structure": {
+          "heading": "Publicatii",
+          "articles": "Articole Selectate",
+          "collabs": "Colaborari",
+          "media": "Articole din Media"
+        },
+        "section": {
+          "selectedArticles": {
+            "subheading": "Realizari Majore in Cercetare",
+            "content": [
+              {
+                "title": "Melanopsin-Based Brightness Discrimination in Mice and Humans(2012)",
+                "link": "https://www.cell.com/current-biology/fulltext/S0960-9822(12)00459-9?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0960982212004599%3Fshowall%3Dtrue",
+                "translation": "マウスとヒトにおけるメラノプシンに基づく輝度識別"
+              },
+              {
+                "title": "Delayed response of human melanopsin retinal ganglion cells on the pupillary light reflex(2011)",
+                "translation": "瞳孔光反射におけるヒトメラノプシン網膜神経節細胞の遅延性反応"
+              },
+              {
+                "title": "Contribution of human melanopsin retinal ganglion cells to steady-state pupil responses(2010)",
+                "link": "https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2010.0330",
+                "translation": "定常瞳孔反応に対するヒトメラノプシン網膜神経節細胞の寄与度"
+              },
+              {
+                "title": "Two distinct cone-opponent processes in the L+M luminance pathway(2007)",
+                "link": "http://www.sda.nagoya-cu.ac.jp/tsujimura/Tsujimura2007.pdf",
+                "translation": "L+M輝度経路における2つの異なる錐体対向過程"
+              },
+              {
+                "title": "Pupil response to colour signals in cone-contrast space(2006)",
+                "translation": "錐体コントラスト空間における色信号に対する瞳孔の反応"
+              },
+              {
+                "title": "Pupil responses associated with coloured afterimages are mediated by the magnocellular pathway(2003)",
+                "link": "http://www.sda.nagoya-cu.ac.jp/tsujimura/Tsujimura2003.pdf",
+                "translation": "大脳細胞経路によって媒介される色彩残像に伴う瞳孔の反応"
+              },
+              {
+                "title": "Similarities between visual processing of shear and uniform motion(2002)",
+                "link": "http://www.sda.nagoya-cu.ac.jp/tsujimura/Tsujimura2002.pdf",
+                "translation": "せん断運動と一様運動に対する視覚処理の類似性"
+              },
+              {
+                "title": "A linear chromatic mechanism drives the pupillary responses(2001)",
+                "link": "https://royalsocietypublishing.org/doi/abs/10.1098/rspb.2001.1775",
+                "translation": "リニアクロマティックメカニズムにより駆動する瞳孔の反応"
+              },
+              {
+                "title": "Technique to investigate the temporal phase shift between L- and M-cone inputs to the luminance mechanism(2000)",
+                "link": "http://www.sda.nagoya-cu.ac.jp/tsujimura/Tsujimura2000.pdf",
+                "translation": "輝度機構におけるL錐体入力とM錐体入力の時間的位相差を調べる技術"
+              },
+              {
+                "title": "Selective cone suppression by the L-M and M-L cone-opponent mechanisms in the luminance pathway(1999)",
+                "link": "http://www.sda.nagoya-cu.ac.jp/tsujimura/Tsujimura1999.pdf",
+                "translation": "輝度経路におけるL-MおよびM-L錐体対向機構による選択的な錐体抑制について"
+              }
+            ]
+          },
+          "collaborations": {
+            "subheading": "Cercetare Colaborativa",
+            "content": [
+              {
+                "heading": "Melanopsin expressing retinal ganglion cells",
+                "content": [
+                  "Katsunori Okajima,School of Engineering,Yokohama National University,Japan",
+                  "Akiyoshi Kitaoka,Department of Psychology,Ritsumeikan University,Japan",
+                  "Robert Lucas,Faculty of Life Sciences,The University of Manchester,UK",
+                  "Su-ling Yeh,National Taiwan University,Taiwan"
+                ]
+              },
+              {
+                "heading": "Pupil & Clinical research",
+                "content": [
+                  "Aki Kawasaki, Department of Neuro-ophthalmology, University of Lausanne, Switzerland",
+                  "Martial Geiser, System engineering institute, HES-SO Valais-Wallis, Switzerland",
+                  "John L Barbur,School of Community and Health Sciences,City University London,UK",
+                  "James Wolffsohn,School of Life and Health Sciences,Aston University,UK"
+                ]
+              },
+              {
+                "heading": "Circadian Rhythms",
+                "content": [
+                  "Takeshi Morita,Department of Living Environmental Science,Fukuoka Women's University",
+                  "Shigekazu Higuchi,Faculty of Design,Kyushu University,Japan",
+                  "Shuhei Hashiguchi,Department of Chemistry, Biotechnology, and Chemical Engineering Graduate School of Science and Engineering, Kagoshima University,Japan"
+                ]
+              }
+            ]
+          },
+          "media": {
+            "subheading": "メディア掲載情報",
+            "content": [
+              {
+                "date": "2012/06/07, 14",
+                "heading": "週刊新潮で研究が紹介",
+                "media": "「サイエンス宅配便：目の中にある第３の受容体」（サイエンスライター竹内薫さん）"
+              },
+              {
+                "date": "2012/06/04",
+                "heading": "日経BPネットで研究が紹介",
+                "media": "「照明機器やディスプレイの省エネにもつながる」、明るさ感に影響を与える仕組みを鹿児島大学らが解明",
+                "link": "https://xtech.nikkei.com/dm/article/NEWS/20120604/221397/"
+              },
+              {
+                "date": "2012/05/28",
+                "heading": "南日本新聞22面で研究が紹介",
+                "media": "「網膜メラノプシン神経節細胞：明るさ知覚の機能確認」"
+              },
+              {
+                "date": "2011/3/26",
+                "heading": "南日本新聞 「研究のおと」欄",
+                "media": "「生体リズムの解明：手作り装置で細胞機能解明」"
+              },
+              {
+                "date": "2010/11",
+                "heading": "鹿児島大学広報誌 鹿大ジャーナルで研究が紹介",
+                "media": "「メラノプシン神経節細胞の機能解明に挑む」",
+                "link": "http://www.sda.nagoya-cu.ac.jp/tsujimura/kadaiNo185_2010.pdf"
+              },
+              {
+                "date": "2010/4/23",
+                "heading": "科学新聞",
+                "media": "「概日リズム調節に関与 新光受容器メカニズム発見」"
+              },
+              {
+                "date": "2010/6/11",
+                "heading": "南日本新聞",
+                "media": "「鹿児島知の最前線：時差ぼけを早期修正.新装置で神経細胞を刺激」"
+              },
+              {
+                "date": "2008/8",
+                "heading": "積水化学工業",
+                "media": "「自然に学ぶ研究事例：自然光に学ぶ多原色光源装置の開発」",
+                "link": "https://www.sekisui.co.jp/sustainability_report/"
+              }
+            ]
+          }
+        }
+      },
+      "students": {
+        "heading": "Pentru Studenti",
+        "content": "Nimic pentru moment. Incercati mai tarziu."
+      },
+      "nav": {
+        "schoolName": "Universitatea Nagoya City, Departamentul de Design si Arhitectura",
+        "labName": " Laboratorul Tsujimura Sei-ichi",
+        "adress1": "2-1-10, Kita Chikusa, ",
+        "adress2": "Chikusa-ku, Nagoya, 464-0083",
+        "adress3": "TEL:052-721-1225 FAX:052-721-3110"
+      }
+    }
+  }
+  

@@ -1,12 +1,14 @@
 import Head from 'next/head'
 
 import { css } from '@linaria/core'
+import { useTranslation } from 'next-export-i18n'
 
 import { ArticleContainer } from '@/components/template/ArticleContainer'
 import { Text } from '@/components/typography/Text'
 import { Title } from '@/components/typography/Title'
 
 export default function ForStudents() {
+  const { t } = useTranslation()
   return (
     <>
       <Head>
@@ -14,9 +16,9 @@ export default function ForStudents() {
       </Head>
 
       <ArticleContainer>
-        <Title>For Students</Title>
+        <Title>{t('students.heading')}</Title>
         <section className={section}>
-          <Text>現在お知らせはありません。</Text>
+          <Text>{t('students.content')}</Text>
         </section>
       </ArticleContainer>
     </>

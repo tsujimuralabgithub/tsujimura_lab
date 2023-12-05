@@ -36,18 +36,18 @@ export default function Home() {
 
       <article className={article}>
         <section className={sectionBlock}>
-          <Heading>Outline</Heading>
+          <Heading>{t('index.structure.outline')}</Heading>
           {t('index.outline').map((item: string, idx: number) => (
             <p key={idx} className={outline}>
               {item}
             </p>
           ))}
           <Link href='/laboratory' className={viewMore}>
-            view more
+          {t('more')}
           </Link>
         </section>
         <section className={sectionBlock}>
-          <Heading>News</Heading>
+          <Heading>{t('index.structure.news')}</Heading>
           <ul className={newsList}>
             {t('index.news').map((item: NewsType, idx: number) => (
               <li key={idx} className={newsItem}>
@@ -69,8 +69,8 @@ export default function Home() {
 const topVisual = css`
   display: flex;
   align-items: center;
-  width: 100vw;
-  height: calc(100svh - 40px);
+  width: calc(100vw-10px);
+  height: 100svh;
   background-color: ${Color.main_blue};
 `
 
