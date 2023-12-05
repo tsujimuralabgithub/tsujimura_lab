@@ -90,11 +90,6 @@
               "name": "Colorimetru pentru Luminanta 2D",
               "detail": "Colorimetrul RTC-21 2D Luminance este o camera care foloseste un sistem de culoare XYZ cu sensibilitate echivalenta cu cea a ochiului uman si poate capta informatii de culoare pe o gama larga de culori care nu pot fi captate de camerele RGB obisnuite cu trei culori primare. Imaginile XYZ cu gama larga de culori pot fi verificate, salvate si analizate pe un PC.",
               "image": "/equipments/image3.jpg"
-            },
-            {
-              "name": "LEDCube",
-              "detail": "THOUSLITE LEDCube este o sursa de lumina care foloseste un algoritm de optimizare proprietar si 10 LED-uri speciale pentru a simula usor si cu precizie orice mediu de iluminare cu diferite distributii spectrale (SPD).",
-              "image": "/equipments/image4.jpg"
             }
           ]
         }

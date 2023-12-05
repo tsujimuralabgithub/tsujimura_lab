@@ -91,11 +91,6 @@
             "name": "2D Luminance Colorimeter",
             "detail": "The RTC-21 2D Luminance Colorimeter is a camera that uses an XYZ color system with sensitivity equivalent to that of the human eye, and can acquire color information over a wide color range that cannot be captured by ordinary RGB three-primary color cameras. The acquired wide color gamut and high color XYZ images can be checked, saved and analyzed on a PC.",
             "image": "/equipments/image3.jpg"
-          },
-          {
-            "name": "LEDCube",
-            "detail": "THOUSLITE LEDCube is a 'lighting environment simulation light source' that uses a proprietary optimization algorithm and 10 special LEDs to easily and accurately simulate any lighting environment with different spectral distribution (SPD).",
-            "image": "/equipments/image4.jpg"
           }
         ]
       }

@@ -80,7 +80,27 @@ export default function Research() {
             <iframe
               width='100%'
               height='100%'
-              src='https://www.youtube.com/embed/uNR7q6uF6v0?si=empcYcDzeWjhXuQG'
+              src='https://www.youtube.com/embed/aDBKKTeagzs?si=aueiZdGx-3JRjHgP'
+              title='【Jetbot】Collision Avoidance 01'
+              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+              allowFullScreen
+            />
+          </MovieContainer>
+          <MovieContainer>
+            <iframe
+              width='100%'
+              height='100%'
+              src='https://www.youtube.com/embed/Znr3cE1m4aA?si=tEKluqX6s32-rSaL'
+              title='【Jetbot】Road Following'
+              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+              allowFullScreen
+            />
+          </MovieContainer>
+          <MovieContainer>
+            <iframe
+              width='100%'
+              height='100%'
+              src='https://www.youtube.com/embed/Yxtqz4ZRMU0?si=oM9rKisxLCdrqxHn'
               title='YouTube video player 【Jetbot】コース走行'
               allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
               allowFullScreen

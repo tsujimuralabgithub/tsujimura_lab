@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 import { css } from '@linaria/core'
 import { useTranslation } from 'next-export-i18n'
@@ -13,7 +14,7 @@ import {
   collaborateList,
   mediaList
 } from '@/content/publications'
-import { FontWeight } from '@/styles/StyleToken'
+import { Color, FontWeight } from '@/styles/StyleToken'
 
 export default function Publications() {
   const { t } = useTranslation()
@@ -43,6 +44,9 @@ export default function Publications() {
               </li>
             ))}
           </ul>
+          <Link href='https://researchmap.jp/read0118613/published_papers?lang=ja' className={viewMore}>
+          {t('more')}
+          </Link>
         </section>
         <section>
           <Heading>{t('publications.structure.collabs')}</Heading>
@@ -61,7 +65,7 @@ export default function Publications() {
             ))}
           </ul>
         </section>
-        <section>
+        {/* <section>
           <Heading>{t('publications.structure.media')}</Heading>
           <ul className={listStyle}>
             {mediaList.map((item, index) => (
@@ -78,7 +82,7 @@ export default function Publications() {
               </li>
             ))}
           </ul>
-        </section>
+        </section> */}
       </ArticleContainer>
     </>
   )
@@ -139,5 +143,17 @@ const newsItem = css`
   span {
     display: inline-block;
     min-width: 120px;
+  }
+`
+
+const viewMore = css`
+  align-self: flex-end;
+  font-weight: ${FontWeight.regular};
+  text-decoration: underline;
+  transition: 0.2s;
+  ${textStyle};
+
+  &:hover {
+    color: ${Color.main_grey};
   }
 `
