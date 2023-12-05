@@ -1,11 +1,11 @@
 {
   "i18n": {
     "navbar": {
-      "top": "Top",
-      "labInfo": "Lab Info",
-      "members": "Members",
-      "publications": "Publications",
-      "forStudents": "For Students"
+      "top": "ホーム",
+      "labInfo": "研究情報",
+      "members": "メンバー",
+      "publications": "論文",
+      "forStudents": "学生向け"
     },
     "index": {
       "structure": {
