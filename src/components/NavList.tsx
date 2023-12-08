@@ -34,7 +34,7 @@ export const NavList = ({ path }: Props) => {
         <Link href={{ pathname: '/students', query: query }}>{t('navbar.forStudents')}</Link>
       </li>
       <li className={listItem}>
-        <LanguageSwitcher lang='ja'>ja</LanguageSwitcher> |{' '}
+        <LanguageSwitcher lang='ja'>日本語</LanguageSwitcher> |{' '}
         <LanguageSwitcher lang='en'>en</LanguageSwitcher> |{' '}
         <LanguageSwitcher lang='ro'>ro</LanguageSwitcher>
       </li>
