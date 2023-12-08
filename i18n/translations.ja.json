@@ -63,12 +63,12 @@
           "subheading": "研究室での実験",
           "jetsonNano": {
             "heading": "Jetson Nano",
-            "outline": "学生たちは、NVIDIAのJetson Nanoを搭載したSparkFun JetBot AIロボットキットを使用してディープラーニングについて学びます。",
+            "outline": "実習では、NVIDIA製の小型のAIコンピュータボード（Jetson Nano）を搭載した自立走行ロボット「Jetbot」を使用して、ディープラーニングについて学びます。",
             "links": [
               "https://github.com/dusty-nv/jetson-inference",
               "https://github.com/NVIDIA-AI-IOT/jetbot"
             ],
-            "collision": "次のビデオは、秋と衝突回避を学ぶための衝突回避運転デモを使用したテストランを示しています。"
+            "collision": "下の動画では、学生がJetbotによる落下・衝突回避の学習を学ぶため、サンプルプログラムを用いたテスト走行を行っています。"
           }
 
         },
