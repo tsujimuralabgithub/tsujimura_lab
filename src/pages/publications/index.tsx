@@ -11,8 +11,7 @@ import { textStyle } from '@/components/typography/Text'
 import { Title } from '@/components/typography/Title'
 import {
   articlesList,
-  collaborateList,
-  mediaList
+  collaborateList
 } from '@/content/publications'
 import { Color, FontWeight } from '@/styles/StyleToken'
 
