@@ -19,6 +19,10 @@
       ],
       "news": [
         {
+          "date": "2023/12/08",
+          "text": "New homepage released. In addition to Japanese and English, the website is now also available in Romanian language."
+        },
+        {
           "date": "2023/06/22",
           "text": "Discovered that the use of special illumination light improves contrast (text and image shading) sensitivity in humans.(PDF: 0.99MB)",
           "link": "https://www.nagoya-cu.ac.jp/media/20230621press.pdf"

@@ -19,6 +19,10 @@
         ],
         "news": [
           {
+            "date": "2023/12/08",
+            "text": "O noua versiune a paginii web a fost publicata. Pe langa japoneza si engleza, acum website-ul este disponibil si in limba romana."
+          },
+          {
             "date": "2023/06/22",
             "text": "A fost descoperit faptul ca lumina cu iluminare speciala imbunatateste sensibilitatea oamenilor la contrast.(PDF: 0.99MB)",
             "link": "https://www.nagoya-cu.ac.jp/media/20230621press.pdf"
