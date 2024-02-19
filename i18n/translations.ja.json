@@ -287,7 +287,12 @@
     },
     "students": {
       "heading": "学生向け",
-      "content": "現在お知らせはありません。"
+      "content": {
+        "colorScience": {
+          "picture": "/assets/shikisaikougaku.png",
+          "details": "色を科学的にとらえる：色彩工学"
+        }
+      }
     },
     "nav": {
       "schoolName": "名古屋市立大学 芸術工学部",

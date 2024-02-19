@@ -290,7 +290,12 @@
       },
       "students": {
         "heading": "Pentru Studenti",
-        "content": "Nimic pentru moment. Incercati mai tarziu."
+        "content": {
+          "colorScience": {
+            "picture": "/assets/shikisaikougaku.png",
+            "details": "O noua abordare a culorii: Stiinta Culorii"
+          }
+        }
       },
       "nav": {
         "schoolName": "Universitatea Nagoya City, Departamentul de Design si Arhitectura",

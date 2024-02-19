@@ -291,7 +291,12 @@
     },
     "students": {
       "heading": "For Students",
-      "content": "Nothing to be shown at the moment."
+      "content": {
+        "colorScience": {
+          "picture": "/assets/shikisaikougaku.png",
+          "details": "Scientific approach to color: Color Engineering"
+        }
+      }
     },
     "nav": {
       "schoolName": "Nagoya City University School of Design and Architecture",
