@@ -3,11 +3,11 @@ import Head from 'next/head'
 import { css } from '@linaria/core'
 import { useTranslation } from 'next-export-i18n'
 
-import { ArticleContainer } from '@/components/template/ArticleContainer'
-import { Title } from '@/components/typography/Title'
 
 import { Heading } from '@/components/typography/Heading'
 import { basePath } from '@/utils/basePath'
+import { ArticleContainer } from '@/components/template/ArticleContainer'
+import { Title } from '@/components/typography/Title'
 
 
 export default function ForStudents() {
