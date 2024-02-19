@@ -3,12 +3,10 @@ import Head from 'next/head'
 import { css } from '@linaria/core'
 import { useTranslation } from 'next-export-i18n'
 
-
-import { Heading } from '@/components/typography/Heading'
-import { basePath } from '@/utils/basePath'
 import { ArticleContainer } from '@/components/template/ArticleContainer'
+import { Heading } from '@/components/typography/Heading'
 import { Title } from '@/components/typography/Title'
-
+import { basePath } from '@/utils/basePath'
 
 export default function ForStudents() {
   const { t } = useTranslation()
