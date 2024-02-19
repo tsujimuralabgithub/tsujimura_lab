@@ -2,11 +2,11 @@
 const withLinaria = require('next-with-linaria')
 
 const SUB_DIRECTORY = '/tsujimura'
-const isProd = process.env.NODE_ENV != 'production'
+const isProd = true
 
 const nextConfig = {
   basePath: isProd ? SUB_DIRECTORY : '',
-  assetPrefix: isProd ? SUB_DIRECTORY : '',
+  assetPrefix: './',
   publicRuntimeConfig: {
     basePath: isProd ? SUB_DIRECTORY : ''
   },
