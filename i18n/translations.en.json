@@ -19,6 +19,16 @@
       ],
       "news": [
         {
+          "date": "2024/07/08",
+          "text": "JAIC Publication: Investigation of steady-state pupil responses to test stimuli defined in photoreceptor stimulation.Mizuki Takikawa, Tomoe Ito, Yuno Fujita, Aoi Takasu, Sei-ichi Tsujimura",
+          "link": "https://aic-color.org/resources/Documents/JAIC/jaic_v36_01.pdf"
+        },
+        {
+          "date": "2024/07/08",
+          "text": "JAIC Publication: Investigation of effect of retinal photoreceptor stimulations including melanopsin on brightness perception. Yuno Fujita, Aoi Takasu, Mizuki Takikawa, Tomoe Ito, Sei-ichi Tsujimura",
+          "link": "https://aic-color.org/resources/Documents/JAIC/jaic_v36_02.pdf"
+        },
+        {
           "date": "2023/12/18",
           "text": "Master student Fujita and 4th year student Takikawa from our laboratory were awarded the 'Honorable Mention Poster Award' as excellent participants at AIC2023 (International Color Association)",
           "link": "https://www.nagoya-cu.ac.jp/sda/news/202312151645/"
@@ -117,23 +127,22 @@
         },
         {
           "head": "Master Student",
-          "data": ["Yuno Fujita", "Iurco Tiberiu Iulian"]
+          "data": ["Yuno Fujita", "Iurco Tiberiu-Iulian", "Mizuki Takikawa", "Kaho Mishina"]
         },
         {
           "head": "4th Year",
           "data": [
             "Momoka Iwasaki",
-            "Yukina Ureshino",
-            "Miku Otake",
-            "Mizuki Takikawa",
-            "Rina Nakajima",
-            "Kaho Mishina",
-            "Lyam Mori"
+            "Yuichiro Inagaki",
+            "Ruka Kajino",
+            "Yuki Hatakeyama",
+            "Shinji Mizuno",
+            "Mori Nozomu"
           ]
         },
         {
           "head": "3rd Year",
-          "data": [""]
+          "data": ["Loo Min Xing"]
         },
         {
           "head": "Alumni",

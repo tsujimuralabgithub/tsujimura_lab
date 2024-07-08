@@ -19,6 +19,16 @@
       ],
       "news": [
         {
+          "date": "2024/07/08",
+          "text": "JAICに掲載：Investigation of steady-state pupil responses to test stimuli defined in photoreceptor stimulation。Mizuki Takikawa, Tomoe Ito, Yuno Fujita, Aoi Takasu, Sei-ichi Tsujimura",
+          "link": "https://aic-color.org/resources/Documents/JAIC/jaic_v36_01.pdf"
+        },
+        {
+          "date": "2024/07/08",
+          "text": "JAICに掲載：Investigation of effect of retinal photoreceptor stimulations including melanopsin on brightness perception。Yuno Fujita, Aoi Takasu, Mizuki Takikawa, Tomoe Ito, Sei-ichi Tsujimura",
+          "link": "https://aic-color.org/resources/Documents/JAIC/jaic_v36_02.pdf"
+        },
+        {
           "date": "2023/12/18",
           "text": "辻村研究室のM1藤田さんとB4滝川さんがAIC2023(国際色彩学会)で優秀者として「Honorable Mention Poster Award」を受賞しました。",
           "link": "https://www.nagoya-cu.ac.jp/sda/news/202312151645/"
@@ -113,23 +123,22 @@
         },
         {
           "head": "大学院修士課程",
-          "data": ["藤田 優之", "Iurco Tiberiu Iulian"]
+          "data": ["藤田 優之", "Iurco Tiberiu-Iulian", "滝川 瑞季", "三品 佳穂"]
         },
         {
           "head": "B4",
           "data": [
             "岩崎 百花",
-            "嬉野 友妃菜",
-            "大竹 未来",
-            "滝川 瑞季",
-            "中嶋 莉那",
-            "三品 佳穂",
-            "森 璃弥武"
+            "稲垣 悠一郎",
+            "梶野 月花",
+            "畑山 由宇貴",
+            "水野 慎治",
+            "森 望"
           ]
         },
         {
           "head": "B3",
-          "data": [""]
+          "data": ["ミンシン　ルー"]
         },
         {
           "head": "同窓生",
