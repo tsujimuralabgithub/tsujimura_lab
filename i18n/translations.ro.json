@@ -127,35 +127,40 @@
         {
           "head": "Masterat",
           "data": [
-            "Yuno Fujita",
             "Iurco Tiberiu-Iulian",
             "Mizuki Takikawa",
-            "Kaho Mishina"
+            "Nozomu Mori"
           ]
         },
         {
           "head": "Facultate An 4",
           "data": [
-            "Momoka Iwasaki",
-            "Yuichiro Inagaki",
-            "Ruka Kajino",
-            "Yuki Hatakeyama",
-            "Shinji Mizuno",
-            "Nozomu Mori"
+             "Min Xing Loo",
+            "Nanako Morii",
+            "Mine Ikeuchi",
+            "Masanao Chikada",
+            "Akina Kanda",
+            "Kokoro Takeuchi"
           ]
         },
         {
           "head": "Facultate An 3",
-          "data": ["Min Xing Loo"]
+          "data": [
+            "Tokebi Douya",
+            "Mizuki Koga",
+            "Mio Kawai"
+          ]
         },
         {
           "head": "Alumni",
           "data": [
+           "Yuno Fujita（2025）",
             "Tomoe Ito (2023)",
             "Aoi Takasu (2023)",
             "Bullot Loefc (2021)",
             "Vincent Conus (2020)",
-            "Yan Michellod (2019)"
+            "Yan Michellod (2019)",
+            "Barman Corentin (2018)"
           ]
         }
       ]
