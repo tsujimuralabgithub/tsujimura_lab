@@ -154,13 +154,14 @@ const spNavWrap = css`
     position: fixed;
     top: 64px;
     left: 0;
-    z-index: -1;
+    z-index: -100;
     display: grid;
     place-content: center;
     width: 100%;
     height: calc(100svh - 64px);
     background-color: ${Color.main_white};
     opacity: 0;
+    pointer-events: none
     transition-timing-function: ease;
     transition-duration: 0.3s;
     transition-property: opacity, transform;
