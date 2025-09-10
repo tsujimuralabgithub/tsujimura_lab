@@ -14,7 +14,7 @@ import { Color, FontFamily, FontWeight } from '@/styles/StyleToken'
 type Props = { path: string }
 
 export const NavList = ({ path }: Props) => {
-  const { t } = useTranslation()
+  const { t, lang } = useTranslation()
   const router = useRouter()
   const [id, setId] = useState<string | null>(null)
 
@@ -28,32 +28,35 @@ export const NavList = ({ path }: Props) => {
     }
   }, [router.query.id, router.asPath])
 
-  const queryWithLang = (lang: string) => ({ ...router.query, lang })
+  const queryWithLang = (overrideLang?: string) => ({
+    ...router.query,
+    lang: overrideLang ?? lang
+  })
 
   return (
     <ol className={list}>
       <li className={`${listItem} ${path === '/' && isCurrent}`}>
-        <Link href={{ pathname: '/', query: queryWithLang('ja') }}>
+        <Link href={{ pathname: '/', query: queryWithLang() }}>
           {t('navbar.top')}
         </Link>
       </li>
       <li className={`${listItem} ${path === '/laboratory' && isCurrent}`}>
-        <Link href={{ pathname: '/laboratory', query: queryWithLang('ja') }}>
+        <Link href={{ pathname: '/laboratory', query: queryWithLang() }}>
           {t('navbar.labInfo')}
         </Link>
       </li>
       <li className={`${listItem} ${path === '/members' && isCurrent}`}>
-        <Link href={{ pathname: '/members', query: queryWithLang('ja') }}>
+        <Link href={{ pathname: '/members', query: queryWithLang() }}>
           {t('navbar.members')}
         </Link>
       </li>
       <li className={`${listItem} ${path === '/publications' && isCurrent}`}>
-        <Link href={{ pathname: '/publications', query: queryWithLang('ja') }}>
+        <Link href={{ pathname: '/publications', query: queryWithLang() }}>
           {t('navbar.publications')}
         </Link>
       </li>
       <li className={`${listItem} ${path === '/students' && isCurrent}`}>
-        <Link href={{ pathname: '/students', query: queryWithLang('ja') }}>
+        <Link href={{ pathname: '/students', query: queryWithLang() }}>
           {t('navbar.forStudents')}
         </Link>
       </li>
@@ -77,7 +80,7 @@ export const NavList = ({ path }: Props) => {
               : { pathname: router.pathname, query: queryWithLang('en') }
           }
         >
-          EN
+          en
         </LanguageSwitcher>
         {' | '}
         <LanguageSwitcher
@@ -107,7 +110,7 @@ const list = css`
   display: flex;
   gap: 24px;
 
-  @media screen and (width <= 830px) {
+  @media screen and (max-width: 830px) {
     flex-direction: column;
     align-items: center;
   }
@@ -138,7 +141,6 @@ const listItem = css`
 
   span {
     ${textStyle};
-
     cursor: pointer;
 
     &[data-is-current='false'] {
