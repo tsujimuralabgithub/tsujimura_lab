@@ -53,7 +53,13 @@ export default function Home() {
               <li key={idx} className={newsItem}>
                 <span>{item.date}</span>
                 {item.link ? (
-                  <ExternalLink link={item.link}>{item.text}</ExternalLink>
+                  item.link.startsWith('/') ? (
+                    <Link href={item.link} className={viewMore}>
+                      {item.text}
+                    </Link>
+                  ) : (
+                    <ExternalLink link={item.link}>{item.text}</ExternalLink>
+                  )
                 ) : (
                   <p>{item.text}</p>
                 )}

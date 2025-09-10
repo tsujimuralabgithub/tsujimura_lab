@@ -19,6 +19,11 @@
       ],
       "news": [
         {
+          "date": "2025/09/10",
+          "text": "Master’s first-year student Nozomu Mori from our laboratory received the Best Rookie Poster Award at the 61st Japanese Society of Ophthalmological Optics, held in Nagoya in August.",
+          "link": "/news/1?lang=en"
+        },
+        {
           "date": "2024/07/08",
           "text": "JAIC Publication: Investigation of steady-state pupil responses to test stimuli defined in photoreceptor stimulation.Mizuki Takikawa, Tomoe Ito, Yuno Fujita, Aoi Takasu, Sei-ichi Tsujimura",
           "link": "https://aic-color.org/resources/Documents/JAIC/jaic_v36_01.pdf"
@@ -320,6 +325,14 @@
       "adress1": "2-1-10, Kita Chikusa, ",
       "adress2": "Chikusa-ku, Nagoya, 464-0083",
       "adress3": "TEL:052-721-1225 FAX:052-721-3110"
-    }
+    },
+    "newsDetail": [
+      {
+        "id": "1",
+        "title": "Best Rookie Poster Award at the 61st Japanese Society of Ophthalmological Optics",
+        "content": "Master’s first-year student Nozomu Mori from our laboratory received the Best Rookie Poster Award at the 61st Japanese Society of Ophthalmological Optics, held in Nagoya in August. His research investigated how melanopsin-containing retinal ganglion cells and cone cells in the human retina contribute to brightness perception.",
+        "picture": "/news/20250904_award.jpg"
+      }
+    ]
   }
 }

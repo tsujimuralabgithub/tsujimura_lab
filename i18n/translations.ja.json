@@ -19,6 +19,11 @@
       ],
       "news": [
         {
+          "date": "2025/09/10",
+          "text": "辻村研究室の修士1年の森 望さんが、8月に名古屋で開催された第61回日本眼光学学会総会にて、ベストルーキー賞（ポスター賞）を受賞しました。",
+          "link": "/news/1?lang=ja"
+        },
+        {
           "date": "2024/07/08",
           "text": "JAICに掲載：Investigation of steady-state pupil responses to test stimuli defined in photoreceptor stimulation。Mizuki Takikawa, Tomoe Ito, Yuno Fujita, Aoi Takasu, Sei-ichi Tsujimura",
           "link": "https://aic-color.org/resources/Documents/JAIC/jaic_v36_01.pdf"
@@ -316,6 +321,14 @@
       "adress1": "〒464-0083 愛知県名古屋市千種区",
       "adress2": "北千種2丁目1番10号",
       "adress3": "TEL:052-721-1225 (代) FAX:052-721-3110"
-    }
+    },
+    "newsDetail": [
+      {
+        "id": "1",
+        "title": "第61回日本眼光学学会総会 ベストルーキー賞受賞",
+        "content": "研究室の修士1年の森 望さんが、8月に名古屋で開催された第61回日本眼光学学会総会にて、ベストルーキー賞（ポスター賞）を受賞しました。森さんの研究は、網膜に存在するメラノプシン含有神経節細胞と錐体細胞が、ヒトの明るさ知覚にどのように寄与するかを検証したものです 。",
+        "picture": "/news/20250904_award.jpg"
+      }
+    ]
   }
 }

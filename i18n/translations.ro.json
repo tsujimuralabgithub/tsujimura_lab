@@ -19,6 +19,11 @@
       ],
       "news": [
         {
+          "date": "2025/09/10",
+          "text": "Studentul de master, anul I, Nozomu Mori, din laboratorul nostru, a primit Premiul pentru cel mai bun debut (Premiul pentru poster) la cea de-a 61-a ediție a Japanese Society of Ophthalmological Optics, desfășurată în august la Nagoya.",
+          "link": "/news/1?lang=ro"
+        },
+        {
           "date": "2024/07/08",
           "text": "Publicatie JAIC: Investigation of steady-state pupil responses to test stimuli defined in photoreceptor stimulation. Mizuki Takikawa, Tomoe Ito, Yuno Fujita, Aoi Takasu, Sei-ichi Tsujimura",
           "link": "https://aic-color.org/resources/Documents/JAIC/jaic_v36_01.pdf"
@@ -319,6 +324,14 @@
       "adress1": "2-1-10, Kita Chikusa, ",
       "adress2": "Chikusa-ku, Nagoya, 464-0083",
       "adress3": "TEL:052-721-1225 FAX:052-721-3110"
-    }
+    },
+    "newsDetail": [
+      {
+        "id": "1",
+        "title": "Premiul pentru cel mai bun debut (poster) la cea de-a 61-a ediție a Japanese Society of Ophthalmological Optics",
+        "content": "Studentul de master, anul I, Nozomu Mori, din laboratorul nostru, a primit Premiul pentru cel mai bun debut (Premiul pentru poster) la cea de-a 61-a ediție a Japanese Society of Ophthalmological Optics, desfășurată în august la Nagoya. Cercetarea sa a investigat modul în care celulele ganglionare retiniene ce conțin melanopsină și celulele cu con din retină contribuie la percepția luminozității la om.",
+        "picture": "/news/20250904_award.jpg"
+      }
+    ]
   }
 }
