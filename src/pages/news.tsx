@@ -1,14 +1,16 @@
 'use client'
 
+import { useState, useEffect } from 'react'
+
 import Head from 'next/head'
 import { useRouter } from 'next/router'
+
 import { css } from '@linaria/core'
 import { useTranslation } from 'next-export-i18n'
 
 import { ArticleContainer } from '@/components/template/ArticleContainer'
 import { Heading } from '@/components/typography/Heading'
 import { basePath } from '@/utils/basePath'
-import { useState, useEffect } from 'react'
 
 
 export default function NewsDetailPage() {
@@ -52,6 +54,7 @@ useEffect(() => {
 
 const imageBlock = css`
   width: 100%;
+
   img {
     width: 100%;
     aspect-ratio: 3 / 2;

@@ -1,12 +1,15 @@
 'use client'
 
+import { useEffect, useState } from 'react'
+
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import { useEffect, useState } from 'react'
+
 import { css } from '@linaria/core'
 import { useTranslation, LanguageSwitcher } from 'next-export-i18n'
 
 import { Color, FontFamily, FontWeight } from '@/styles/StyleToken'
+
 
 type Props = { path: string }
 
@@ -104,7 +107,7 @@ const list = css`
   display: flex;
   gap: 24px;
 
-  @media screen and (max-width: 830px) {
+  @media screen and (width <= 830px) {
     flex-direction: column;
     align-items: center;
   }
@@ -135,6 +138,7 @@ const listItem = css`
 
   span {
     ${textStyle};
+
     cursor: pointer;
 
     &[data-is-current='false'] {

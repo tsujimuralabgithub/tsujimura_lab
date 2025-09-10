@@ -75,7 +75,7 @@ export default function Home() {
 const topVisual = css`
   display: flex;
   align-items: center;
-  width: calc(100vw-10px);
+  width: calc(100vw - 10px);
   height: 100svh;
   background-color: ${Color.main_blue};
 `
