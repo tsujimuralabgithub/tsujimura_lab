@@ -159,9 +159,9 @@ const spNavWrap = css`
     place-content: center;
     width: 100%;
     height: calc(100svh - 64px);
+    pointer-events: none;
     background-color: ${Color.main_white};
     opacity: 0;
-    pointer-events: none
     transition-timing-function: ease;
     transition-duration: 0.3s;
     transition-property: opacity, transform;
