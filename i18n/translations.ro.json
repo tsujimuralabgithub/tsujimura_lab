@@ -75,7 +75,7 @@
           "content": [
             "Ne concentram pe relatia dintre procesarea informatiei senzoriale, cum ar fi culoarea si luminozitatea, si functiile superioare ale creierului. In plus, acordam si o atentie deosebita investigarii functiei celulelor ganglionare de melanopsina, care joaca un rol important in codificarea semnalelor luminoase externe din creier. Scopul nostru este de a raspunde la misterul procesarii din interiorul retinei, cum se integreaza si cum este reprezentata in creier, folosind metode psihofizice si neurofiziologice. Retina ochiului nostru contine doua tipuri de fotoreceptori (celule con si celule baston).",
             "S-a crezut mult timp ca acesti doi fotoreceptori sunt singurii care ne permit sa percepem si sa facem distinctie intre obiecte. Cu toate acestea, in jurul anului 2000, a fost descoperit un al treilea fotoreceptor, celula de melanopsina. Celulele de melanopsina au o proteina fotoreceptoare numita melanopsina. Descoperirea acestor celule a condus la o reevaluare fundamentala a cailor de formare a imaginilor si a celor care nu formeaza imagini, cum ar fi ritmul circadian si reflexul pupilar la lumina.",
-            "Celulele de melanopsina sunt considerate a juca un rol important in codificarea luminii ambientale din creier. Semnalele de la celulele de melanopsina stimulate de lumina ambientala, impreuna cu semnalele de la celulele fotoreceptoare clasice, cum ar fi conurile si bastoanele, contribuie atat la functiile creierului pe partea cailor de formare a imaginilor, cat si pe partea cailor care nu formeaza imagini.",
+            "Celulele de melanopsina sunt considerare a juca un rol important in codificarea luminii ambientale din creier. Semnalele de la celulele de melanopsina stimulate de lumina ambientala, impreuna cu semnalele de la celulele fotoreceptoare clasice, cum ar fi conurile si bastoanele, contribuie atat la functiile creierului pe partea cailor de formare a imaginilor, cat si pe partea cailor care nu formeaza imagini.",
             "Grupul nostru de cercetare a fost primul din lume care a descoperit ca celulele de melanopsina contribuie la perceptia luminozitatii. Pe de alta parte, reglarea ritmului circadian, reflexul pupilar la lumina, perceptia contrastului si a luminozitatii sunt doar o mica parte din functiile acestora, si se crede ca pot exista si altele. De exemplu, acestea pot afecta, de asemenea, memoria, atentia, dispozitia si durerile de migrena."
           ]
         },
@@ -107,7 +107,7 @@
         "equipments": [
           {
             "name": "Spectroradiometru",
-            "detail": "Masoara cantitatea de energie fizica (valoare absoluta) cu pasi a cate 1 nm fiecare,  in intervalul 380 nm - 780 nm de lumina vizibila cu ochiul uman. De asemenea, se calculeaza cu precizie ridicata luminozitatea, cromaticitatea, temperatura de culoare, lungimea de unda principala, etc. Se foloseste pentru calibrarea diferitelor echipamente experimentale.",
+            "detail": "Masoara cantitatea de energie fizica (valoare absoluta) cu pasi a cate 1 nm fiecare, in intervalul 380 nm - 780 nm de lumina vizibila cu ochiul uman. De asemenea, se calculeaza cu precizie ridicata luminozitatea, cromaticitatea, temperatura de culoare, lungimea de unda principala, etc. Se foloseste pentru calibrarea diferitelor echipamente experimentale.",
             "image": "/equipments/image1.jpg"
           },
           {
@@ -142,7 +142,7 @@
         {
           "head": "Facultate An 4",
           "data": [
-             "Min Xing Loo",
+            "Min Xing Loo",
             "Nanako Morii",
             "Mine Ikeuchi",
             "Masanao Chikada",
