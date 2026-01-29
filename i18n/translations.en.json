@@ -19,6 +19,11 @@
       ],
       "news": [
         {
+          "date": "2026/01/29",
+          "text": "Professor Sei-ichi Tsujimura will appear on the NHK Educational TV program \"Science ZERO\" on Sunday, February 1st, \"Welcome to the Science of Color! Is 'Blue' Harmony and Innovation?\"",
+          "link": "https://www.nagoya-cu.ac.jp/sda/news/20231122/"
+        },
+        {
           "date": "2025/09/10",
           "text": "Master’s first-year student Nozomu Mori from our laboratory received the Best Rookie Poster Award at the 61st Japanese Society of Ophthalmological Optics, held in Nagoya in August.",
           "link": "/news?id=1&lang=en"
@@ -129,7 +134,8 @@
         {
           "head": "Master Student",
           "data": [
-            "Iurco Tiberiu-Iulian",
+            "Bianca-Mihaela Preda",
+            "Irina-Maria Varzaru",
             "Mizuki Takikawa",
             "Nozomu Mori"
           ]
@@ -156,6 +162,7 @@
         {
           "head": "Alumni",
           "data": [
+            "Tiberiu-Iulian Iurco (2025)",
             "Marina Saito (2025)",
             "Yuno Fujita (2025)",
             "Tomoe Ito (2023)",

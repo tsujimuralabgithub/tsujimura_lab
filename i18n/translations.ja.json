@@ -19,6 +19,11 @@
       ],
       "news": [
         {
+          "date": "2026/01/29",
+          "text": "2月1日（日）に辻村誠一教授がNHKの番組に出演します。",
+          "link": "https://www.nagoya-cu.ac.jp/sda/news/20231122/"
+        },
+        {
           "date": "2025/09/10",
           "text": "辻村研究室の修士1年の森 望さんが、8月に名古屋で開催された第61回日本眼光学学会総会にて、ベストルーキー賞（ポスター賞）を受賞しました。",
           "link": "/news?id=1&lang=ja"
@@ -125,7 +130,8 @@
         {
           "head": "大学院修士課程",
           "data": [
-            "Iurco Tiberiu-Iulian",
+            "Preda Bianca-Mihaela",
+            "Varzaru Irina-Maria",
             "滝川 瑞季",
             "森 望"
           ]
@@ -152,6 +158,7 @@
         {
           "head": "同窓生",
           "data": [
+            "Iurco Tiberiu-Iulian (2025)",
             "齋藤 真里菜 (2025)",
             "藤田 優之 (2025)",
             "伊藤 登萌 (2023)",
