@@ -132,36 +132,46 @@
       },
       "list": [
         {
-          "head": "Master Student",
+          "head": "Doctoral Student",
           "data": [
-            "Bianca-Mihaela Preda",
-            "Irina-Maria Varzaru",
-            "Mizuki Takikawa",
-            "Nozomu Mori"
+            "Mizuki Takikawa"
           ]
         },
         {
-          "head": "4th Year",
+          "head": "Master Students",
           "data": [
-            "Min Xing Loo",
-            "Nanako Morii",
+            "Nozomu Mori",
             "Mine Ikeuchi",
-            "Masanao Chikada",
-            "Akina Kanda",
-            "Kokoro Takeuchi"
+            "Nanako Morii",
+            "Bianca-Mihaela Preda",
+            "Irina-Maria Varzaru"
           ]
         },
         {
-          "head": "3rd Year",
+          "head": "4th Year Students",
           "data": [
+            "Masanao Chikada",
             "Tokebi Douya",
             "Mizuki Koga",
-            "Mio Kawai"
+            "Mio Kawai",
+            "Meigaku Tei"
+          ]
+        },
+        {
+          "head": "3rd Year Students",
+          "data": [
+            "Hinano Ida",
+            "Himari Yamamoto",
+            "Satsuki Nagai",
+            "Arisu Nodu"
           ]
         },
         {
           "head": "Alumni",
           "data": [
+            "Kokoro Takeuchi (2026)",
+            "Akina Kanda (2026)",
+            "Min Xing Loo (2026)",
             "Tiberiu-Iulian Iurco (2025)",
             "Marina Saito (2025)",
             "Yuno Fujita (2025)",

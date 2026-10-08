@@ -131,36 +131,46 @@
       },
       "list": [
         {
+          "head": "Doctorat",
+          "data": [
+            "Mizuki Takikawa"
+          ]
+        },
+        {
           "head": "Masterat",
           "data": [
+            "Nozomu Mori",
+            "Mine Ikeuchi",
+            "Nanako Morii",
             "Bianca-Mihaela Preda",
-            "Irina-Maria Varzaru",
-            "Mizuki Takikawa",
-            "Nozomu Mori"
+            "Irina-Maria Varzaru"
           ]
         },
         {
           "head": "Facultate An 4",
           "data": [
-            "Min Xing Loo",
-            "Nanako Morii",
-            "Mine Ikeuchi",
             "Masanao Chikada",
-            "Akina Kanda",
-            "Kokoro Takeuchi"
+            "Tokebi Douya",
+            "Mizuki Koga",
+            "Mio Kawai",
+            "Meigaku Tei"
           ]
         },
         {
           "head": "Facultate An 3",
           "data": [
-            "Tokebi Douya",
-            "Mizuki Koga",
-            "Mio Kawai"
+            "Hinano Ida",
+            "Himari Yamamoto",
+            "Satsuki Nagai",
+            "Arisu Nodu"
           ]
         },
         {
           "head": "Alumni",
           "data": [
+            "Kokoro Takeuchi (2026)",
+            "Akina Kanda (2026)",
+            "Min Xing Loo (2026)",
             "Iurco Tiberiu-Iulian (2025)",
             "Marina Saito (2025)",
             "Yuno Fujita (2025)",
